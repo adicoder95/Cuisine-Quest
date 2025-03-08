@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+* {
+  /* margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+}
+body {
+  background: #f6e5d9;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  /* padding: 0 20px; */
+}
+.sliding {
+  margin-left: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+    /* padding: 0 20px; */
+  }
+  .sliding {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    margin: auto;
+    /* padding: 0 20px; */
+  }
+  .sliding {
+    margin-left: 2.5%;
+  }
+}
+
+.sidebar {
+  border-radius: 0 20px 20px 0;
+}
+.simple-btn {
+  background: linear-gradient(
+    37.6deg,
+    #ffffff 29.76%,
+    rgba(255, 255, 255, 0.4) 85.5%
+  );
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #FC8801;
+}
+.button-active {
+  background: linear-gradient(91.05deg, #fc8801 0%, #fc3d01 100%);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* Recipe Card */
+/* Trending Recipes */
+.trending-cards .card {
+  height: 100%;
+  background: linear-gradient(
+    37.6deg,
+    #ffffff 29.76%,
+    rgba(255, 255, 255, 0.4) 85.5%
+  );
+  border-radius: 15px;
+}
+.trending-cards .card-middle {
+  box-shadow: 0px 25px 47px 0px #f8dcc9;
+}
+button{
+  cursor: pointer;
+}

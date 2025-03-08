@@ -1,0 +1,77 @@
+.food-items {
+  display: ruby-text;
+  margin-top: 20px;
+}
+.food-items button {
+  background: linear-gradient(
+    37.6deg,
+    #ffffff 29.76%,
+    rgba(255, 255, 255, 0.4) 85.5%
+  );
+  /* box-shadow: 0px 25px 47px 0px #f8dcc9; */
+  backdrop-filter: blur(10px);
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.chefs-cards .card {
+  background: linear-gradient(
+    37.6deg,
+    #ffffff 29.76%,
+    rgba(255, 255, 255, 0.4) 85.5%
+  );
+  border-radius: 25px;
+  padding: 25px;
+}
+.chefs-cards .card h4 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.6;
+}
+.chefs-cards .card img {
+  box-shadow: 0px 25px 47px 0px #f8dcc9;
+  border-radius: 13px;
+}
+
+/* Trending Recipes */
+.trending-cards .card {
+  width: 496px;
+  height: 100%;
+  background: linear-gradient(
+    37.6deg,
+    #ffffff 29.76%,
+    rgba(255, 255, 255, 0.4) 85.5%
+  );
+  border-radius: 15px;
+  margin-left: 25px;
+}
+.trending-cards .card-middle {
+  box-shadow: 0px 25px 47px 0px #f8dcc9;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .trending-cards .card {
+    width: 496px;
+  }
+}
+
+/* Home bottom */
+.program {
+  border-radius: 25px;
+}
+@media (max-width: 600px) {
+  .program .card {
+    position: absolute;
+  }
+  .cuisine .card{
+    left: 30%;
+  }
+  .cuisine-meal{
+    position: absolute;
+  }
+}
+.program .meal {
+  box-shadow: 0px 25px 47px 0px #350000;
+  border-radius: 73px;
+}

@@ -1,0 +1,30 @@
+.signup {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.signup .signup-main {
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(246, 229, 217, 0) 0%, #f6e5d9 32.4%);
+}
+.signup .signup-main form{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+}
+.signup .signup-main form h4{
+    color: #64A67E;
+    font-size: 25px;
+    font-weight: 700;
+}
+.signup .signup-main form input{
+    padding: 15px;
+    background: #FFF8F4;
+    outline: none;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 10px;
+}
